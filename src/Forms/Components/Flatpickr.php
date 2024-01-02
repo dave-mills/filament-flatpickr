@@ -146,16 +146,12 @@ class Flatpickr extends Field implements Contracts\CanBeLengthConstrained, Contr
             $this->enableTime(false);
             $this->time(false);
             $this->range(false);
-            $this->dateFormat('Y-m');
-            $this->altFormat('F J');
             $this->altInput();
         } elseif ($this->isWeekSelect()) {
             $this->mode(FlatpickrMode::SINGLE);
             $this->enableTime(false);
             $this->time(false);
             $this->range(false);
-            $this->dateFormat('W');
-            $this->altFormat('\Week W');
             $this->altInput();
         }
         $config = [
