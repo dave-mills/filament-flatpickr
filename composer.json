@@ -1,17 +1,22 @@
 {
-    "name": "coolsam/flatpickr",
+    "name": "dave-mills/filament-flatpickr",
     "description": "Integrate Flatpickr with FilamentPHP",
     "keywords": [
         "coolsam",
         "laravel",
         "filament-flatpickr"
     ],
-    "homepage": "https://github.com/savannabits/filament-flatpickr",
+    "homepage": "https://github.com/dave-mills/filament-flatpickr",
     "license": "MIT",
     "authors": [
         {
             "name": "Sam Maosa",
             "email": "smaosa@savannabits.com",
+            "role": "Original Developer"
+        },
+        {
+            "name": "Dave Mills",
+            "email": "d.e.mills@stats4sd.org",
             "role": "Developer"
         }
     ],
